@@ -1,8 +1,8 @@
-export default function signUpUser(lastName, firstName) {
+export default function signUpUser(firstName, lastName) {
   return new Promised((resolve) => {
     resolve({
-      lastName,
       firstName,
+      lastName,
     });
   });
 }
